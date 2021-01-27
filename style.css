@@ -13,10 +13,8 @@ ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-}
-
-li {
-  margin: 0 2rem;
+  padding: 0;
+  justify-content: space-around;
 }
 
 a {
@@ -28,9 +26,13 @@ main {
 }
 
 section {
-  height: 50vh;
+  min-height: 50vh;
   color: #fff;
   padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 
@@ -52,6 +54,10 @@ section {
 
 #s5 {
   background: #1B9AAA;
+}
+
+p {
+  margin: 2rem;
 }
 
 html {
