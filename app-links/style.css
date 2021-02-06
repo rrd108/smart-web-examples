@@ -1,0 +1,50 @@
+body {
+  background-color: #113537;
+  color: #FFEAD0;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  box-sizing: border-box;
+  width: 45vw;
+  height: 25vw;
+  background-color: #37505C;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+a {
+  color: #FFEAD0;
+  text-decoration: none;
+}
+
+i {
+  display: block !important;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+li:active {
+  background-color: #96616b;
+  animation: puff 150ms ease;
+}
+
+@keyframes puff {
+  25% {
+    transform: scale(1.25);
+  }
+  75% {
+    transform: scale(0.75);
+  }
+}
