@@ -1,5 +1,4 @@
 # smart-web-examples
 
-All examples have their own branch.
-
-1. CSS only Smooth Scroll 
+1. CSS only Smooth Scroll
+2. App Links
