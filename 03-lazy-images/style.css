@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #eee;
+  color: #111;
+  padding: 2rem;
+}
+
+section {
+  display: flex;
+  padding: 2rem;
+}
+
+section:nth-child(odd) {
+  background-color: #eee;
+  color: #111;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+img {
+  width: 80vw;  /*helps threshold calculation*/
+}
