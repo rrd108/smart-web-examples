@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #113537;
+  color: #FFEAD0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  height: 80vh;
+  background-image: url('https://live.staticflickr.com/8741/28196880635_84b380c53a_b_d.jpg');
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header div {
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  text-shadow: .3rem .3rem .3rem #333;
+}
+
+header button {
+  max-width: 40vw;
+  font-size: min(5vw, 2rem);
+  padding: .3rem 1rem;
+}
+
+nav {
+  font-weight: bold;
+  background-color: #ddd;
+  height: 3rem;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  margin: 1rem;
+  width: 30%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  margin: 1rem auto;
+  font-weight: 100;
+  width: 90vw;
+}
+
+h1 {
+  font-size: min(15vw, 7rem);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  background-color: #7d4e57;
+  padding: 1rem;
+  position: sticky;
+  top: 3rem;
+}
+
+p {
+  margin: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
