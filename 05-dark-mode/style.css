@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: all 350ms ease;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  /*Dark mode-hoz*/
+  background-color: #fff;
+  color: #000;
+}
+
+nav {
+  font-weight: bold;
+  background-color: #2f4858;
+  height: 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 1rem;
+  width: 30%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header,
+main {
+  margin: 1rem auto;
+  font-weight: 100;
+  width: 72vw;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 3rem 0;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+header h2 {
+  margin: 1rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  margin-bottom: 3rem;
+}
+#icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cc2936;
+  color: #fff;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+#icons i {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 3rem;
+}
+.info p {
+  margin-left: 3rem;
+}
+
+/*
+header {
+  height: 40vh;
+  background-image: url('./header.jpg');
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header div {
+  text-align: center;
+  position: sticky;
+  top: 3rem;
+}
+
+header h1 {
+  text-shadow: 0.3rem 0.3rem 0.3rem #336699;
+}
+
+
+h1 {
+  font-size: min(15vw, 7rem);
+  margin-bottom: 3rem;
+}
+
+h2 {
+  background-color: #336699;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 3rem;
+}
+
+p {
+  margin: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+*/
+#theme-switch {
+  position: fixed;
+  right: 1rem;
+  top: 2rem;
+  background-color: #399e5a;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+#dark {
+  display: none;
+}
+.dark-theme {
+  filter: invert(100%) hue-rotate(180deg);
+}
