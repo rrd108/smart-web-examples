@@ -1,0 +1,39 @@
+html {
+  transition: all 350ms ease;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+#theme-switcher {
+  position: fixed;
+  top: 2rem;
+  right: 1rem;
+  background-color: #399e5a;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#dark {
+  display: none;
+}
+
+.dark-mode {
+  filter: invert(100%) hue-rotate(180deg);
+}
+.dark-mode img,
+.dark-mode video,
+.dark-mode .keep {
+  filter: invert(100%) hue-rotate(180deg);
+  transition: all 350ms ease;
+}
+img,
+video,
+.keep {
+  transition: all 350ms ease;
+}

@@ -17,7 +17,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./theme-switcher.js" defer></script>
+    <link rel="stylesheet" href="dark-mode.css" />
+    <script src="theme-switcher.js" defer></script>
   </head>
   <body>
     <nav>
@@ -46,7 +47,7 @@
     </header>
 
     <main>
-      <section id="icons">
+      <section id="icons" class="keep">
         <div>
           <i class="fas fa-ambulance"></i>
           <h2>Web</h2>
@@ -106,7 +107,7 @@
       </div>
     </main>
 
-    <div id="theme-switch" title="Sötét mód be/ki">
+    <div id="theme-switcher" title="Sötét mód be/ki">
       <i class="fas fa-sun" id="light"></i>
       <i class="fas fa-moon" id="dark"></i>
     </div>

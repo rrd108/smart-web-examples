@@ -5,14 +5,10 @@
 
 html {
   scroll-behavior: smooth;
-  transition: all 350ms ease;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
-  /*Dark mode-hoz*/
-  background-color: #fff;
-  color: #000;
 }
 
 nav {
@@ -81,11 +77,17 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #cc2936;
+  background-color: #c47ac0;
   color: #fff;
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+}
+#icons div:nth-child(2) {
+  background-color: #cc2936;
+}
+#icons div:nth-child(3) {
+  background-color: #1b98e0;
 }
 #icons i {
   font-size: 5rem;
@@ -102,65 +104,4 @@ p {
 }
 .info p {
   margin-left: 3rem;
-}
-
-/*
-header {
-  height: 40vh;
-  background-image: url('./header.jpg');
-  background-position: top;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-header div {
-  text-align: center;
-  position: sticky;
-  top: 3rem;
-}
-
-header h1 {
-  text-shadow: 0.3rem 0.3rem 0.3rem #336699;
-}
-
-
-h1 {
-  font-size: min(15vw, 7rem);
-  margin-bottom: 3rem;
-}
-
-h2 {
-  background-color: #336699;
-  color: #fff;
-  padding: 1rem;
-  position: sticky;
-  top: 3rem;
-}
-
-p {
-  margin: 1rem;
-  line-height: 1.6;
-  font-size: 1.4rem;
-}
-*/
-#theme-switch {
-  position: fixed;
-  right: 1rem;
-  top: 2rem;
-  background-color: #399e5a;
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 2;
-}
-#dark {
-  display: none;
-}
-.dark-theme {
-  filter: invert(100%) hue-rotate(180deg);
 }
